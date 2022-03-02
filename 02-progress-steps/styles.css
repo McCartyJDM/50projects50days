@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #f6f7fb;
+    background-image: url('https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80');
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center;
@@ -18,6 +18,33 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    color: #fff;
+}
+
+h1 {
+    position: absolute;
+    top: 10vh;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+h2 {
+    position: absolute;
+    top: 20vh;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+span {
+    color: gold;
 }
 
 .container {
@@ -59,7 +86,7 @@ body {
 
 .circle {
     background-color: #fff;
-    color: #999;
+    font-size: 0;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -72,6 +99,7 @@ body {
 
 .circle.active {
     border-color: var(--line-border-fill);
+    background-color: purple;
 }
 
 .btn {
@@ -81,7 +109,8 @@ body {
     border-radius: 6px;
     cursor: pointer;
     font-family: inherit;
-    padding: 8px 30px;
+    font-weight: bold;
+    padding: 8px 35px;
     margin: 5px;
     font-size: 14px;
 }
@@ -109,5 +138,11 @@ body {
     }
     .progress-container{
         width: 1000%;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.2em;
     }
 }
