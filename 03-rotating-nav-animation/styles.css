@@ -111,9 +111,16 @@ nav ul li + li + li {
 }
 
 nav a{
-  color: #fafafa;
+  color: #111;
   text-decoration: none;
   transition: all 0.5s;
+  font-weight: bolder;
+  text-shadow:
+  3px 3px 0 #fff,
+-1px -1px 0 #fff,  
+ 1px -1px 0 #fff,
+ -1px 1px 0 #fff,
+  1px 1px 0 #fff;
 }
 
 nav a:hover {
