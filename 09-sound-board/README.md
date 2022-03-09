@@ -1,9 +1,6 @@
 # Sound Board 
 ## Day 9 - Wednesday Mar. 9th, 2022
-I altered the Sound Board exercise to 
+I created the Sound Board exercise from 50Projects50Days
 
-![Demo of Sound Board exercise](demo.mp4)
+https://user-images.githubusercontent.com/19610994/157448341-9cba459a-36f0-44a0-b300-53aab608bc67.mp4
 
-<video width="320" height="240" controls>
-  <source src="/demo.mp4" type="video/mp4">
-</video>
