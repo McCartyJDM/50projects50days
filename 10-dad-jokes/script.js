@@ -35,3 +35,5 @@ async function generateJoke() {
 //     })
 // }
 
+// Dad Jokes API from https://icanhazdadjoke.com/api
+
