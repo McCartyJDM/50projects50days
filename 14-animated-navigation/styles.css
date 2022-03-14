@@ -1,29 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #eafbff;
-  background-image: linear-gradient(
+  /* background-color: #eafbff; */
+  background: url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  /* background-image: linear-gradient(
     to bottom,
     #eafbff 0%,
     #eafbff 50%,
     #5290f9 50%,
-    #5290f9 100%
-  );
-  font-family: 'Muli', sans-serif;
+    #5290f9 100% */
+  /* ); */
+  font-family: 'Bebas Neue', sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
 }
 
+sup {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+background-color: rgba(0, 0, 0, 0.7);
+display: flex;
+flex-direction: column;
+border-radius: 5px;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 30px;
+}
+
+h1, h2 {
+    color: #fff;
+    /* text-shadow: 3px 3px 1px black; */
+    font-size: 50px;
+    margin: 0px 30px 30px 30px;
+}
+
+h2 {
+    color: yellow;
+    font-size: 30px;
+}
+
 nav {
   background-color: #fff;
-  padding: 20px;
+  font-size: 20px;
+  padding: 0 20px 0 20px;
   width: 80px;
   display: flex;
   align-items: center;
