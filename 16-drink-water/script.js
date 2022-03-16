@@ -1,9 +1,9 @@
 const smallCups = document.querySelectorAll('.cup-small')
-const liters = document.getElementById('liters')
 const percentage = document.getElementById('percentage')
 const remaining = document.getElementById('remaining')
+const units = document.getElementById('units')
 
-
+// checkUnitSystem()
 updateBigCup()
 
 smallCups.forEach((cup, idx) => {
@@ -46,20 +46,30 @@ function updateBigCup() {
         remaining.style.height = 0
     } else {
         remaining.style.visibility = 'visible'
-        liters.innerText = `${2 - (250 * fullCups / 1000)}L`
+        units.innerText = `${2 - (250 * fullCups / 1000)}L`
+
     }
 }
 
-
-// Take click event on Imperial or Metric and switch values of .cup.cup-small and #liters to #cups
+// button.addEventListener('click', () => {})
+// const unitSystem = btn.addEventListener('click', ()querySelectorAll('btn')
+// const button = document.getElementsByClassName('btn')
+// Take click event on Imperial or Metric and switch values of .cup.cup-small, units, h2 to matching system
 // 2 Liters is roughly 1/2 gallon or 8 cups
 // Let's display 8 cups or number of cups remaining
+
+//change h2, .cup.cup-small and units
 
 // Cups remaining will be 8 cups
 
 // Need to select span element and change to cups
-function unitSystem() {
 
-}
+// Take click 
+
+
+
+// function checkUnitSystem() {
+
+// }
 
  
