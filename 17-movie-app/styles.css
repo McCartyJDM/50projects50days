@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #171829;
+    --secondary-color: #323341;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pop.gif);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+header h1 {
+    color: rgb(255, 217, 0);
+    margin: 0px 20px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0px 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.search::placeholder {
+    color: #7378c5;
+}
+
+.search:focus {
+    outline: none;
+    background-color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.movie-info h3 {
+    margin-top: 0;
+}
+
+.movie-info span {
+    background-color: var(--primary-color);
+    padding: 0.25em 0.25rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green {
+    color: lightgreen;
+}
+
+.movie-info span.orange {
+    color: orange;
+}
+
+.movie-info span.red {
+    color: red;
+}
+
+.overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+
+}
+
+@media (max-width: 720px) {
+    header img {
+        height: 120px;
+        width: 120px;
+    }
+    header h1 {
+        display: none;
+    }
+    .search {
+        margin: 0;
+    }
+}
