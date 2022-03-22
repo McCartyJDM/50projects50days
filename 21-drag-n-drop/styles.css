@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shrikhand', sans-serif;
+    background-color: #fb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    font-size: 4rem;
+}
+
+.empty {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: solid 3px black;
+    background: #08c;
+    border-radius: 50%;
+}
+
+.fill {
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+.hovered {
+    background-color: #333;
+    border-color: white;
+    border-style: dashed;
+    background-image: url('beatles.webp');
+}
+
+/* Beatles Pictures
+#john {
+    background-image: url('john.jpg');
+}
+
+#paul {
+    background-image: url('paul.jpg');
+}
+
+#george {
+    background-image: url('george.jpg');
+}
+
+#ringo {
+    background-image: url('ringo.jpg');
+} 
+*/
+
+#yellowsub {
+    background-image: url('sub.png');
+}
+
+@media(max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    h1 {
+       top: 1%;
+       font-size: 2rem;
+    }
+}
