@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
     background-color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Smokum';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,17 +16,25 @@ body {
     margin: 0;
 }
 
+img {
+    width: 300px;
+    transform: rotate(-90deg);
+    margin-bottom: 100px;
+}
+
 button {
     background-color: purple;
+    font-family: inherit;
     color: #fff;
     border: 1px purple solid;
-    font-size: 14px;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 20px 30px;
     overflow: hidden;
     margin: 10px 0;
     position: relative;
+    border-radius: 5px;
 }
 
 button:focus {
