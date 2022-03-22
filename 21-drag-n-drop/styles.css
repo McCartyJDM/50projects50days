@@ -74,9 +74,19 @@ h1 {
 @media(max-width: 800px) {
     body {
         flex-direction: column;
+        margin-top: 5px;
     }
     h1 {
        top: 1%;
        font-size: 2rem;
+    }
+    .empty {
+        height: 140px;
+        width: 140px;
+        margin: 5px;
+    }
+    .fill {
+        height: 135px;
+        width: 135px;
     }
 }
