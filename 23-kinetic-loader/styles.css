@@ -15,7 +15,7 @@ body {
 .pacman {
     height: 80px;
     width: 80px;
-    margin-bottom: 125px;
+    margin-bottom: 325px;
 }
 
 .pacman::before, .pacman::after {
@@ -41,7 +41,7 @@ body {
   background-color: red;
   height: 100px;
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
   width: 80px;
   animation: rotate 4s linear infinite;
   display: flex;
